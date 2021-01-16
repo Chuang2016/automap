@@ -27,9 +27,9 @@ autokrige.vgm.panel = function(x, y, model, subscripts,...)
               "\nNugget: ",
               round(nugget, digits = 3),#no_digits(nugget)),
               "\nSill: ",
-              round(sill, digits = 3),no_digits(sill)),
+              round(sill, digits = 3),#no_digits(sill)),
               "\nRange: ",
-              round(range, digits = 3),no_digits(range)),
+              round(range, digits = 3),#no_digits(range)),
 			  sep = "")
     if (model[2,"model"] %in% c("Mat", "Ste")) {
 		kappa = model[2,"kappa"]
