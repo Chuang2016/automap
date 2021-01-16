@@ -3,7 +3,6 @@
 bf6bc048bc04173de60766f99a4a1736 *R/autoKrige.cv.r
 66c9934db92cb7302cc2ec00512dbb81 *R/autoKrige.r
 fc41550a30bdc3e96f63c08f24a73675 *R/autofitVariogram.r
-8b7bb42cc8ab3f8e17df1137e5bf7307 *R/autokrige.vgm.panel.r
 95af0a6c596bfda76e14c09b5853f1ac *R/automapPlot.r
 2fe18b5cbedcaa62e2e4bd269a35ff0c *R/create_new_data.r
 f70b70b29b7eed718c107bea6653136f *R/plot.autoKrige.r
