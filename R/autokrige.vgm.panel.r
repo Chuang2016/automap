@@ -25,11 +25,11 @@ autokrige.vgm.panel = function(x, y, model, subscripts,...)
     txt = paste("Model: ",
               as.character(model[2,"model"]),
               "\nNugget: ",
-              round(nugget, digits = no_digits(nugget)),
+              round(nugget, digits = 3),#no_digits(nugget)),
               "\nSill: ",
-              round(sill, digits = no_digits(sill)),
+              round(sill, digits = 3),no_digits(sill)),
               "\nRange: ",
-              round(range, digits = no_digits(range)),
+              round(range, digits = 3),no_digits(range)),
 			  sep = "")
     if (model[2,"model"] %in% c("Mat", "Ste")) {
 		kappa = model[2,"kappa"]
